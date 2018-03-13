@@ -5,3 +5,4 @@
 从而在时间上做到精确控制。</br>
 &emsp;&emsp;文件直接就是一个Unity3D工程，下载后解压用Unity3D打开即可。</br>
 &emsp;&emsp;这里给出的仅仅是一个基础的演示模型，可以以该模型的思路进行更复杂的机械臂仿真的开发。
+物理相关的属性都放在FixedUpdate中，FixedUpdate的每帧更新时间在Edit->Project Settings->Time->Fixed Timestep,0.02表示每帧更新时间是0.02s，这个更新时间可以根据个人实际项目中的精确度需要进行调节。
